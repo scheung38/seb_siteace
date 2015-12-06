@@ -2,6 +2,16 @@
  * Created by minminsanjose on 06/12/2015.
  */
 
+
+/// accounts config
+
+Accounts.ui.config({
+passwordSignupFields: "USERNAME_AND_EMAIL"
+});
+
+///
+
+
 /////
 // template helpers
 /////

@@ -5,9 +5,9 @@
 // start up function that creates entries in the Websites databases.
 Meteor.startup(function () {
 // code to run on server at startup
-if (!Websites.findOne()){
+if (!Websites.findOne()) {
     console.log("No websites yet. Creating starter data.");
-      Websites.insert({
+     Websites.insert({
         title:"Goldsmiths Computing Department",
         url:"http://www.gold.ac.uk/computing/",
         description:"This is where this course was developed.",
@@ -25,7 +25,7 @@ if (!Websites.findOne()){
         description:"Universal access to the world’s best education.",
         createdOn:new Date()
     });
-    Websites.insert({
+     Websites.insert({
         title:"Google",
         url:"http://www.google.com",
         description:"Popular search engine.",
